@@ -7,10 +7,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 80:80
+      - 9922:80
     networks:
       - default
-
-networks:
-  bothub:
-    external: true
