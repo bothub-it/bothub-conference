@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+  bothub:
+    image: ${DOCKER_IMAGE_NAME:-ilha/bothub-conference}:${TAG:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    networks:
+      - default
+
+networks:
+  bothub:
+    external: true
