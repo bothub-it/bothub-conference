@@ -1,7 +1,7 @@
 version: '3.6'
 
 services:
-  bothub:
+  conference:
     image: ${DOCKER_IMAGE_NAME:-ilha/bothub-conference}:${TAG:-latest}
     build:
       context: .
