@@ -186,7 +186,15 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 25px;
+}
+
+.certificado p {
+  text-align: center;
+}
+
+.head-day {
+  color: red;
 }
 
 /*--------------------------------------------------------------
@@ -660,7 +668,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
+  padding: 23vh 0 40px 0;
+  height: 70vh;
 }
 
 #about:before {
@@ -1048,6 +1057,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f82249;
 }
 
+.subtitle-day {
+  background-color: black;
+  position: absolute;
+}
+
 #gallery .gallery-carousel .owl-stage-outer {
   overflow: visible;
 }
@@ -1290,9 +1304,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+.botao_dia {
+  flex-wrap: wrap;
+}
+
 #contact .contact-info {
   margin-bottom: 20px;
-  text-align: center;
+  justify-content: center;
 }
 
 #contact .contact-info i {
@@ -1306,6 +1324,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info p {
   margin-bottom: 0;
   color: #112363;
+  text-align: center;
+}
+
+#contact .contact-info img {
+  align-self: center;
 }
 
 #contact .contact-info h3 {
